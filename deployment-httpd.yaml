@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/component: httpd
     app.kubernetes.io/instance: httpd
   name: httpd
-  namespace: simple-http
+  namespace: simple-httpd-as
 spec:
   progressDeadlineSeconds: 600
   replicas: 1
