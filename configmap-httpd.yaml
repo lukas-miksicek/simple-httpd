@@ -1,10 +1,10 @@
 apiVersion: v1
 data:
-  index.html: <h1>Dobrý den</h1>
+  index.html: <h1>Dzień dobry!</h1>
 kind: ConfigMap
 metadata:
   name: index-html
-  namespace: simple-http
+  namespace: simple-http-as
   labels:
     app: httpd
 
