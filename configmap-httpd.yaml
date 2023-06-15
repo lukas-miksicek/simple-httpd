@@ -4,7 +4,7 @@ data:
 kind: ConfigMap
 metadata:
   name: index-html
-  namespace: simple-http-as
+  namespace: simple-httpd-as
   labels:
     app: httpd
 
